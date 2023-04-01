@@ -1,0 +1,6550 @@
+[
+    {
+        "id": "f925fa06b25a46b6",
+        "type": "tab",
+        "label": "Tab WetterDraussen",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0356907ecc50b51d",
+        "type": "tab",
+        "label": "Tab Erdgeschoss",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9130df43d41b4346",
+        "type": "tab",
+        "label": "Tab ErsterStock",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "97107497227b92f5",
+        "type": "tab",
+        "label": "Tab ZweiterStock",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "769e65f9e3ec89b0",
+        "type": "tab",
+        "label": "Tab Buderus",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "147c8d3403dc75f8",
+        "type": "tab",
+        "label": "SolarMax",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1c8540f5f760b79e",
+        "type": "tab",
+        "label": "DatumUhrzeitAlleTabs",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0938a1858e406487",
+        "type": "ui_tab",
+        "name": "Erdgeschoss",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b3af8ad5f6fa20d7",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#4B7930",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#6db046",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#4b7930",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "HomeData",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD.MM.YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "0c1066e6500e0684",
+        "type": "ui_group",
+        "name": "Erdgeschoss Wohnzimmer",
+        "tab": "0938a1858e406487",
+        "order": 1,
+        "disp": true,
+        "width": "30",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "c0ee5bb4f0e7abad",
+        "type": "ui_tab",
+        "name": "ErsterStock",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c7ffec48ed7eb527",
+        "type": "ui_group",
+        "name": "Erster Stock Wohnzimmer",
+        "tab": "c0ee5bb4f0e7abad",
+        "order": 1,
+        "disp": true,
+        "width": "30",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "fd29ed5db83bab10",
+        "type": "ui_tab",
+        "name": "WetterDraussen",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1dfb82f42d8072b6",
+        "type": "ui_group",
+        "name": "Wetter draussen",
+        "tab": "fd29ed5db83bab10",
+        "order": 1,
+        "disp": true,
+        "width": "30",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "6f4aea4ea6f32b77",
+        "type": "ui_group",
+        "name": "Erdgeschoss Wohnzimmer Druck",
+        "tab": "fd29ed5db83bab10",
+        "order": 2,
+        "disp": true,
+        "width": "30",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "5105ca692728bca5",
+        "type": "ui_tab",
+        "name": "BuderusWarmwasser",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8e374d337271bea3",
+        "type": "ui_group",
+        "name": "Warmwasser",
+        "tab": "5105ca692728bca5",
+        "order": 2,
+        "disp": true,
+        "width": "30",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "3d223a7b84e282ab",
+        "type": "ui_tab",
+        "name": "BuderusHeizung",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ba44d2bfa433f113",
+        "type": "ui_group",
+        "name": "Heizung",
+        "tab": "3d223a7b84e282ab",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "8417c7f8fa2d0b1f",
+        "type": "ui_tab",
+        "name": "BuderusAllgemein",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "33f1d2f3cc3ae080",
+        "type": "ui_group",
+        "name": "Allgemein",
+        "tab": "8417c7f8fa2d0b1f",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "219c74f34631f33e",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "c7ffec48ed7eb527",
+        "order": 2,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "7f3d373ec7b028df",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "c7ffec48ed7eb527",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "b41541e0b03b0876",
+        "type": "ui_tab",
+        "name": "BuderusService",
+        "icon": "dashboard",
+        "order": 7,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c561943f930dcf2b",
+        "type": "ui_group",
+        "name": "Service",
+        "tab": "b41541e0b03b0876",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "515d15541cb6dfb5",
+        "type": "ui_group",
+        "name": "Erdgeschoss Wohnzimmer CO2",
+        "tab": "0938a1858e406487",
+        "order": 2,
+        "disp": true,
+        "width": "30",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "f322652a5a1db4f7",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "3077bb5de7a25392",
+        "type": "ui_tab",
+        "name": "SolarMax 1-3",
+        "icon": "dashboard",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0c613f1510065e7f",
+        "type": "ui_group",
+        "name": "Wechselrichter 1-3",
+        "tab": "3077bb5de7a25392",
+        "order": 1,
+        "disp": true,
+        "width": "30",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "c04071dd062ce53a",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "1dfb82f42d8072b6",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "e2322e9df27abbd8",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "6f4aea4ea6f32b77",
+        "order": 2,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "d908d0742d4319ff",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "6f4aea4ea6f32b77",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "b2b4aa90885082a4",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c1066e6500e0684",
+        "order": 2,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "8dd8e64e4c536fb3",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c1066e6500e0684",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "86846db141b35f4e",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "515d15541cb6dfb5",
+        "order": 5,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a379192910af761f",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "515d15541cb6dfb5",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f6b72e6d10d17950",
+        "type": "ui_group",
+        "name": "Erdgeschoss Keller",
+        "tab": "3077bb5de7a25392",
+        "order": 2,
+        "disp": true,
+        "width": 30,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "74eeeb06724da4b1",
+        "type": "ui_tab",
+        "name": "SolarMax 1-3 Grafik",
+        "icon": "dashboard",
+        "order": 9,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e5ab91e14576fa49",
+        "type": "ui_group",
+        "name": "Grafik",
+        "tab": "74eeeb06724da4b1",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "98273b076e181dad",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "8e374d337271bea3",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "0e42399bc514b20d",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "8e374d337271bea3",
+        "order": 6,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "8e35146240695c5a",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "8e374d337271bea3",
+        "order": 7,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "2087ab59d71c99df",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "8e374d337271bea3",
+        "order": 9,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "d7790ed2686bd55a",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "8e374d337271bea3",
+        "order": 11,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "d4cb53eeced970af",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "8e374d337271bea3",
+        "order": 12,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "6e40d6f8d9c7e17c",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "ba44d2bfa433f113",
+        "order": 6,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "5744657cdb6ce1dd",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "ba44d2bfa433f113",
+        "order": 7,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "99593c663e0ed045",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "ba44d2bfa433f113",
+        "order": 8,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "b4607a18d4199641",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "ba44d2bfa433f113",
+        "order": 9,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "6a85372788ac382a",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "ba44d2bfa433f113",
+        "order": 10,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "90e9c407b2ca3917",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "33f1d2f3cc3ae080",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8fef713eded0049e",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "33f1d2f3cc3ae080",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "bb4e3b3a8cecf6d4",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "33f1d2f3cc3ae080",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2857bb391d7d088a",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "33f1d2f3cc3ae080",
+        "order": 11,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "f5f61bf99c323fb5",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "33f1d2f3cc3ae080",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d35323747a26bf43",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "33f1d2f3cc3ae080",
+        "order": 14,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "d32ae69cfee6f59b",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "33f1d2f3cc3ae080",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2d7b33a3eb59744c",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "33f1d2f3cc3ae080",
+        "order": 17,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "11c7351ead02a31c",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "33f1d2f3cc3ae080",
+        "order": 18,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "feef0db033d3b75e",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "c561943f930dcf2b",
+        "order": 1,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "603e5271e4f629d5",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "c561943f930dcf2b",
+        "order": 4,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "0a4e6eeabde60f99",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "c561943f930dcf2b",
+        "order": 6,
+        "width": 17,
+        "height": 1
+    },
+    {
+        "id": "ebcb9c4baef70d29",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "c561943f930dcf2b",
+        "order": 8,
+        "width": 17,
+        "height": 1
+    },
+    {
+        "id": "9bc52c7011b65ace",
+        "type": "ui_spacer",
+        "z": "f925fa06b25a46b6",
+        "name": "spacer",
+        "group": "c561943f930dcf2b",
+        "order": 10,
+        "width": 17,
+        "height": 1
+    },
+    {
+        "id": "8ac1c4f690db125f",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "90ac347a208d51be",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "ae3eef667f10fa9d",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "adc9f1739e1fc3c7",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 10,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "a714c0464429b94e",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 12,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "ccfb0457344e135b",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "4cbc379bc2d7057b",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 14,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "b8869547be378ce2",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 15,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "ac2965d10d8693fe",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 16,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "79ea679b1c1b3f4c",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 17,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "41d2861249b7ddef",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 18,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "6003d64808131033",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 26,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "f34ef43d5aa7051b",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 28,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "ee3427c3e31f1f85",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 30,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "792c87fb24b14162",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 32,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "6676bdc6269084e8",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 34,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "2a771e45aafc33ce",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 36,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "35f45e18eec6c6f3",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 38,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "5c0947afd328efb8",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 40,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "22ab55bf8f04f0a6",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 42,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "8e0792e1ba416db8",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 44,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "1ef6811c2dfdacce",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 46,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "e502177de930132c",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 48,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "7b5825451becb2c9",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 50,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "808308d3bee0db28",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 52,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "56963cbb611b0022",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 54,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "9a4dd58afc75b85e",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 56,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "5797c51ae60126ac",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 58,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "8a6ce1f439b292da",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 60,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "e090d838106a5f3a",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 62,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "cba485d1eeef43ad",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 64,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "f8ab73508c601333",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 66,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "219551bd52b7da23",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 68,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "8459c31c854cc36b",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 70,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "71afef40cfd44816",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "0c613f1510065e7f",
+        "order": 72,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "16fa203adaae6739",
+        "type": "ui_spacer",
+        "z": "147c8d3403dc75f8",
+        "name": "spacer",
+        "group": "f6b72e6d10d17950",
+        "order": 3,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "24905bd99b87b26e",
+        "type": "inject",
+        "z": "f925fa06b25a46b6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "27da186caeb122f5"
+            ]
+        ]
+    },
+    {
+        "id": "27da186caeb122f5",
+        "type": "dwdweather",
+        "z": "f925fa06b25a46b6",
+        "name": "Weather Kirchberg",
+        "mosmixStation": "Q292",
+        "lookAheadHours": "0",
+        "additionalFields": "",
+        "omitMessageOnStart": false,
+        "repeat": "300",
+        "topic": "",
+        "x": 350,
+        "y": 120,
+        "wires": [
+            [
+                "378f3ef05c14f015",
+                "5d48a23349ca2da7",
+                "1d7501e51d2b0f29",
+                "ce4ab7990187e61a",
+                "fb48d2547da1ee4b",
+                "61a1d9035f607973",
+                "1fb1ddb39a3026f4",
+                "628b5a40ad38d850",
+                "a9c3c288a359cc0e",
+                "3f37e6bc6822a1b1"
+            ]
+        ]
+    },
+    {
+        "id": "378f3ef05c14f015",
+        "type": "ui_gauge",
+        "z": "f925fa06b25a46b6",
+        "name": "",
+        "group": "1dfb82f42d8072b6",
+        "order": 1,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Temperatur in °C",
+        "label": "°C",
+        "format": "{{msg.payload.tempc}}",
+        "min": "-40",
+        "max": "40",
+        "colors": [
+            "#0000ff",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "10",
+        "seg2": "25",
+        "className": "",
+        "x": 930,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "58140b5ecada4de5",
+        "type": "comment",
+        "z": "f925fa06b25a46b6",
+        "name": "Tab WetterDraussen",
+        "info": "",
+        "x": 170,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5d48a23349ca2da7",
+        "type": "ui_gauge",
+        "z": "f925fa06b25a46b6",
+        "name": "",
+        "group": "1dfb82f42d8072b6",
+        "order": 2,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Luftfeuchte in % RH",
+        "label": "% RH",
+        "format": "{{msg.payload.humidity}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ffff00",
+            "#00ff00",
+            "#0000ff"
+        ],
+        "seg1": "40",
+        "seg2": "60",
+        "className": "",
+        "x": 940,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "60fc7b556e9a06e1",
+        "type": "ui_gauge",
+        "z": "f925fa06b25a46b6",
+        "name": "",
+        "group": "1dfb82f42d8072b6",
+        "order": 7,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Windgeschwindigkeit in km/h",
+        "label": "km/h",
+        "format": "{{msg.payload}}",
+        "min": "0",
+        "max": "120",
+        "colors": [
+            "#00ff00",
+            "#ffff00",
+            "#ff0000"
+        ],
+        "seg1": "40",
+        "seg2": "80",
+        "className": "",
+        "x": 960,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "ce4ab7990187e61a",
+        "type": "ui_gauge",
+        "z": "f925fa06b25a46b6",
+        "name": "",
+        "group": "1dfb82f42d8072b6",
+        "order": 8,
+        "width": 6,
+        "height": 6,
+        "gtype": "compass",
+        "title": "Windrichtung in Grad",
+        "label": "Grad",
+        "format": "{{msg.payload.winddirection}}",
+        "min": "0",
+        "max": "360",
+        "colors": [
+            "#0000ff",
+            "#ffff00",
+            "#00ff00"
+        ],
+        "seg1": "5",
+        "seg2": "10",
+        "className": "",
+        "x": 940,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "1d7501e51d2b0f29",
+        "type": "compass-point",
+        "z": "f925fa06b25a46b6",
+        "direction": "toCompass",
+        "subset": "secondary",
+        "language": "de",
+        "inputField": "payload.winddirection",
+        "outputField": "payload",
+        "name": "",
+        "x": 580,
+        "y": 800,
+        "wires": [
+            [
+                "bcb1cb416a3e5833",
+                "1b0ae516bc69eeeb"
+            ]
+        ]
+    },
+    {
+        "id": "bcb1cb416a3e5833",
+        "type": "ui_text",
+        "z": "f925fa06b25a46b6",
+        "group": "1dfb82f42d8072b6",
+        "order": 13,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Windrichtung",
+        "format": "{{msg.payload.description}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 910,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "1b0ae516bc69eeeb",
+        "type": "ui_text",
+        "z": "f925fa06b25a46b6",
+        "group": "1dfb82f42d8072b6",
+        "order": 11,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Windrichtung",
+        "format": "{{msg.payload.direction}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 910,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "dbb032f668decde0",
+        "type": "ui_text",
+        "z": "f925fa06b25a46b6",
+        "group": "1dfb82f42d8072b6",
+        "order": 15,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Ost 90, Sued180, West 270, Nord 360 (0)",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1000,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "fb48d2547da1ee4b",
+        "type": "function",
+        "z": "f925fa06b25a46b6",
+        "name": "WindspeedToWindSpeedWord",
+        "func": "// Windspeed m/sec to Windstarkewort\n/*\nm/s         BTF\n0 - 0.2     = BTF0\n0.3 - 1.5   = BTF1\n1.6 - 3.3   = BTF2\n3.4 - 5.4   = BTF3\n5.5 - 7.9   = BTF4\n8.0 - 10.7  = BTF5\n10.8 - 13.8 = BTF6\n13.9 - 17.1 = BTF7\n17.2 - 20.7 = BTF8\n20.8 - 24.4 = BTF9\n24.5 - 28.4 = BTF10\n28.5 - 32.6 = BTF11\n> 32.7      = BTF12\n*/\n\nvar windmax = parseFloat(msg.payload.windspeed);\n\nvar windstarkewort = {};\nwindstarkewort.topic = \"Windstärke_Wort\";\n\nvar windstarkebft = {};\nwindstarkebft.topic = \"Windstärke_bft\";\n\nif (windmax < 0.3) {\n    windstarkebft.payload = 0;\n    windstarkewort.payload = \"Windstille\";\n}\nelse if (windmax >= 0.3 && windmax < 1.6) {\n    windstarkebft.payload = 1;\n    windstarkewort.payload = \"leiser Zug\";\n}\nelse if (windmax >= 1.6 && windmax < 3.4) {\n    windstarkebft.payload = 2;\n    windstarkewort.payload = \"leichte Brise\";\n}\nelse if (windmax >= 3.4 && windmax < 5.5) {\n    windstarkebft.payload = 3;\n    windstarkewort.payload = \"schwache Brise\";\n}\nelse if (windmax >= 5.5 && windmax < 8.0) {\n    windstarkebft.payload = 4;\n    windstarkewort.payload = \"mäßige Brise\";\n}\nelse if (windmax >= 8.0 && windmax < 10.8) {\n    windstarkebft.payload = 5;\n    windstarkewort.payload = \"frische Brise\";\n}\nelse if (windmax >= 10.8 && windmax < 13.9) {\n    windstarkebft.payload = 6;\n    windstarkewort.payload = \"starker Wind\";\n}\nelse if (windmax >= 13.9 && windmax < 17.2) {\n    windstarkebft.payload = 7;\n    windstarkewort.payload = \"steifer Wind\";\n}\nelse if (windmax >= 17.2 && windmax < 20.8) {\n    windstarkebft.payload = 8;\n    windstarkewort.payload = \"stürmischer Wind\";\n}\nelse if (windmax >= 20.8 && windmax < 24.5) {\n    windstarkebft.payload = 9;\n    windstarkewort.payload = \"Sturm\";\n}\nelse if (windmax >= 24.5 && windmax < 28.5) {\n    windstarkebft.payload = 10;\n    windstarkewort.payload = \"schwerer Sturm\";\n}\nelse if (windmax >= 28.5 && windmax < 32.7) {\n    windstarkebft.payload = 11;\n    windstarkewort.payload = \"orkanartiger Sturm\";\n}\nelse if (windmax >= 32.7) {\n    windstarkebft.payload = 12;\n    windstarkewort.payload = \"Sturm\";\n}\n\n\nreturn [windstarkewort];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 480,
+        "wires": [
+            [
+                "20fc3a0e4a42154b"
+            ]
+        ]
+    },
+    {
+        "id": "61a1d9035f607973",
+        "type": "function",
+        "z": "f925fa06b25a46b6",
+        "name": "WindspeedToBFT",
+        "func": "// Windspeed m/sec to BTF\n/*\nm/s         BTF\n0 - 0.2     = BTF0\n0.3 - 1.5   = BTF1\n1.6 - 3.3   = BTF2\n3.4 - 5.4   = BTF3\n5.5 - 7.9   = BTF4\n8.0 - 10.7  = BTF5\n10.8 - 13.8 = BTF6\n13.9 - 17.1 = BTF7\n17.2 - 20.7 = BTF8\n20.8 - 24.4 = BTF9\n24.5 - 28.4 = BTF10\n28.5 - 32.6 = BTF11\n> 32.7      = BTF12\n*/\n\nvar windmax = parseFloat(msg.payload.windspeed);\n\nvar windstarkewort = {};\nwindstarkewort.topic = \"Windstärke_Wort\";\n\nvar windstarkebft = {};\nwindstarkebft.topic = \"Windstärke_bft\";\n\nif (windmax < 0.3) {\n    windstarkebft.payload = 0;\n    windstarkewort.payload = \"Windstille\";\n}\nelse if (windmax >= 0.3 && windmax < 1.6) {\n    windstarkebft.payload = 1;\n    windstarkewort.payload = \"leiser Zug\";\n}\nelse if (windmax >= 1.6 && windmax < 3.4) {\n    windstarkebft.payload = 2;\n    windstarkewort.payload = \"leichte Brise\";\n}\nelse if (windmax >= 3.4 && windmax < 5.5) {\n    windstarkebft.payload = 3;\n    windstarkewort.payload = \"schwache Brise\";\n}\nelse if (windmax >= 5.5 && windmax < 8.0) {\n    windstarkebft.payload = 4;\n    windstarkewort.payload = \"mäßige Brise\";\n}\nelse if (windmax >= 8.0 && windmax < 10.8) {\n    windstarkebft.payload = 5;\n    windstarkewort.payload = \"frische Brise\";\n}\nelse if (windmax >= 10.8 && windmax < 13.9) {\n    windstarkebft.payload = 6;\n    windstarkewort.payload = \"starker Wind\";\n}\nelse if (windmax >= 13.9 && windmax < 17.2) {\n    windstarkebft.payload = 7;\n    windstarkewort.payload = \"steifer Wind\";\n}\nelse if (windmax >= 17.2 && windmax < 20.8) {\n    windstarkebft.payload = 8;\n    windstarkewort.payload = \"stürmischer Wind\";\n}\nelse if (windmax >= 20.8 && windmax < 24.5) {\n    windstarkebft.payload = 9;\n    windstarkewort.payload = \"Sturm\";\n}\nelse if (windmax >= 24.5 && windmax < 28.5) {\n    windstarkebft.payload = 10;\n    windstarkewort.payload = \"schwerer Sturm\";\n}\nelse if (windmax >= 28.5 && windmax < 32.7) {\n    windstarkebft.payload = 11;\n    windstarkewort.payload = \"orkanartiger Sturm\";\n}\nelse if (windmax >= 32.7) {\n    windstarkebft.payload = 12;\n    windstarkewort.payload = \"Sturm\";\n}\n\n\nreturn [windstarkebft];\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 560,
+        "wires": [
+            [
+                "5f32d1f502de57f7"
+            ]
+        ]
+    },
+    {
+        "id": "20fc3a0e4a42154b",
+        "type": "ui_text",
+        "z": "f925fa06b25a46b6",
+        "group": "1dfb82f42d8072b6",
+        "order": 14,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Wind Beschreibung",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 930,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "5f32d1f502de57f7",
+        "type": "ui_text",
+        "z": "f925fa06b25a46b6",
+        "group": "1dfb82f42d8072b6",
+        "order": 12,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Wind BFT",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 900,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "1fb1ddb39a3026f4",
+        "type": "ui_text",
+        "z": "f925fa06b25a46b6",
+        "group": "1dfb82f42d8072b6",
+        "order": 10,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Windgeschwindigkeit m/sec",
+        "format": "{{msg.payload.windspeed}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 960,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "628b5a40ad38d850",
+        "type": "function",
+        "z": "f925fa06b25a46b6",
+        "name": "GetDateTime",
+        "func": "// Get date and time\nvar Time = (new Date()).toLocaleString('de-DE')\nmsg.payload = Time;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 980,
+        "wires": [
+            [
+                "7077a62c5f36c3b0"
+            ]
+        ]
+    },
+    {
+        "id": "7077a62c5f36c3b0",
+        "type": "ui_text",
+        "z": "f925fa06b25a46b6",
+        "group": "1dfb82f42d8072b6",
+        "order": 4,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit letzte Aktualisierung (jede 5min)",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1020,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "a9c3c288a359cc0e",
+        "type": "function",
+        "z": "f925fa06b25a46b6",
+        "name": "GetTemperatureForChart",
+        "func": "var temp = parseFloat(msg.payload.tempc);\n\nvar temperature = {};\ntemperature.topic = \"Temperature\";\ntemperature.payload = temp;\n\nreturn [temperature];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 180,
+        "wires": [
+            [
+                "9a0654e947adf844"
+            ]
+        ]
+    },
+    {
+        "id": "9a0654e947adf844",
+        "type": "ui_chart",
+        "z": "f925fa06b25a46b6",
+        "name": "",
+        "group": "1dfb82f42d8072b6",
+        "order": 6,
+        "width": 18,
+        "height": 7,
+        "label": "Temperatur in °C",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-40",
+        "ymax": "40",
+        "removeOlder": "2",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2ccd2827ebbefe65",
+        "type": "ui_chart",
+        "z": "f925fa06b25a46b6",
+        "name": "",
+        "group": "1dfb82f42d8072b6",
+        "order": 9,
+        "width": 18,
+        "height": 7,
+        "label": "Windgeschwindigkeit in km/h",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "120",
+        "removeOlder": "2",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 960,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c7d7df27ba5a9ae4",
+        "type": "comment",
+        "z": "f925fa06b25a46b6",
+        "name": "Group Wetter draussen",
+        "info": "",
+        "x": 1160,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "e0ba285fe5d03453",
+        "type": "comment",
+        "z": "f925fa06b25a46b6",
+        "name": "MOSMIX Station Kirchberg Q292, Crailsheim N1613",
+        "info": "",
+        "x": 1250,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "3f37e6bc6822a1b1",
+        "type": "function",
+        "z": "f925fa06b25a46b6",
+        "name": "Windspeed m/sec to km/h (*3.6)",
+        "func": "// Multiply 3.6, m/sec to km/h\nvar speed = parseFloat(msg.payload.windspeed);\n\nvar windspeed = {};\nwindspeed.topic = \"Windspeed\";\nwindspeed.payload = speed *3.6;\n\n// Round 2 decimal places\nwindspeed.payload = (Math.round(windspeed.payload * 100.0) / 100.0);\n\nreturn [windspeed];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 320,
+        "wires": [
+            [
+                "60fc7b556e9a06e1",
+                "2ccd2827ebbefe65"
+            ]
+        ]
+    },
+    {
+        "id": "b5d0eef48d94a5af",
+        "type": "mqtt in",
+        "z": "0356907ecc50b51d",
+        "name": "Mosquitto /Groundfloor/LivingRoom/Temperature",
+        "topic": "/Groundfloor/LivingRoom/Temperature",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 120,
+        "wires": [
+            [
+                "6998fc55114490f5",
+                "ad91b4fe5e5396c8",
+                "cae7f62ce7b2b5c0"
+            ]
+        ]
+    },
+    {
+        "id": "6998fc55114490f5",
+        "type": "ui_gauge",
+        "z": "0356907ecc50b51d",
+        "name": "",
+        "group": "0c1066e6500e0684",
+        "order": 1,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Temperatur in °C",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "40",
+        "colors": [
+            "#0000ff",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "18",
+        "seg2": "22",
+        "className": "",
+        "x": 850,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "3259c57d23fce74e",
+        "type": "mqtt in",
+        "z": "0356907ecc50b51d",
+        "name": "Mosquitto /Groundfloor/LivingRoom/Humidity",
+        "topic": "/Groundfloor/LivingRoom/Humidity",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 380,
+        "wires": [
+            [
+                "6ccd8c6859713476",
+                "e565f8397f5108ba"
+            ]
+        ]
+    },
+    {
+        "id": "6ccd8c6859713476",
+        "type": "ui_gauge",
+        "z": "0356907ecc50b51d",
+        "name": "",
+        "group": "0c1066e6500e0684",
+        "order": 7,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Luftfeuchte in % RH",
+        "label": "% RH",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ffff00",
+            "#00ff00",
+            "#0000ff"
+        ],
+        "seg1": "40",
+        "seg2": "60",
+        "className": "",
+        "x": 860,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "f0e5a947e33536a9",
+        "type": "mqtt in",
+        "z": "0356907ecc50b51d",
+        "name": "Mosquitto /Groundfloor/LivingRoom/Pressure",
+        "topic": "/Groundfloor/LivingRoom/Pressure",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 920,
+        "wires": [
+            [
+                "9cfc8fd35509bcbe",
+                "0864bbb9880c0d69",
+                "b7bd0ca43aa08413"
+            ]
+        ]
+    },
+    {
+        "id": "9cfc8fd35509bcbe",
+        "type": "ui_gauge",
+        "z": "0356907ecc50b51d",
+        "name": "",
+        "group": "6f4aea4ea6f32b77",
+        "order": 1,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Druck in hPa",
+        "label": "hPa",
+        "format": "{{value}}",
+        "min": "900",
+        "max": "1100",
+        "colors": [
+            "#0000ff",
+            "#ffff00",
+            "#00ff00"
+        ],
+        "seg1": "980",
+        "seg2": "1020",
+        "className": "",
+        "x": 830,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "b0747e6cf9b6d936",
+        "type": "comment",
+        "z": "0356907ecc50b51d",
+        "name": "Tab Erdgeschoss",
+        "info": "",
+        "x": 160,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "f2dc7a35e320c337",
+        "type": "comment",
+        "z": "0356907ecc50b51d",
+        "name": "Group Erdgeschoss Wohnzimmer",
+        "info": "",
+        "x": 1190,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ad91b4fe5e5396c8",
+        "type": "function",
+        "z": "0356907ecc50b51d",
+        "name": "GetDateTime",
+        "func": "// Get date and time\nvar Time = (new Date()).toLocaleString('de-DE')\nmsg.payload = Time;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 280,
+        "wires": [
+            [
+                "eb0d26e436f64d98"
+            ]
+        ]
+    },
+    {
+        "id": "eb0d26e436f64d98",
+        "type": "ui_text",
+        "z": "0356907ecc50b51d",
+        "group": "0c1066e6500e0684",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit letzte Aktualisierung (jede 5min)",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 940,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "0864bbb9880c0d69",
+        "type": "function",
+        "z": "0356907ecc50b51d",
+        "name": "GetDateTime",
+        "func": "// Get date and time\nvar Time = (new Date()).toLocaleString('de-DE')\nmsg.payload = Time;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1080,
+        "wires": [
+            [
+                "fe479345b57b0342"
+            ]
+        ]
+    },
+    {
+        "id": "fe479345b57b0342",
+        "type": "ui_text",
+        "z": "0356907ecc50b51d",
+        "group": "6f4aea4ea6f32b77",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit letzte Aktualisierung (jede 5min)",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 940,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "cae7f62ce7b2b5c0",
+        "type": "ui_chart",
+        "z": "0356907ecc50b51d",
+        "name": "",
+        "group": "0c1066e6500e0684",
+        "order": 5,
+        "width": 24,
+        "height": 6,
+        "label": "Temperatur in °C",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "40",
+        "removeOlder": "2",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 850,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e565f8397f5108ba",
+        "type": "ui_chart",
+        "z": "0356907ecc50b51d",
+        "name": "",
+        "group": "0c1066e6500e0684",
+        "order": 8,
+        "width": 24,
+        "height": 6,
+        "label": "Luftfeuchte in % RH",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "2",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 860,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b7bd0ca43aa08413",
+        "type": "ui_chart",
+        "z": "0356907ecc50b51d",
+        "name": "",
+        "group": "6f4aea4ea6f32b77",
+        "order": 5,
+        "width": 24,
+        "height": 6,
+        "label": "Druck in hPa",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "900",
+        "ymax": "1100",
+        "removeOlder": "2",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 830,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "92e3c3913a633032",
+        "type": "comment",
+        "z": "0356907ecc50b51d",
+        "name": "Group Erdgeschoss Wohnzimmer Druck",
+        "info": "",
+        "x": 1210,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "9c406e9cd73059e9",
+        "type": "comment",
+        "z": "0356907ecc50b51d",
+        "name": "Tab Wetter draussen",
+        "info": "",
+        "x": 170,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "f20f2de5e0ecdafd",
+        "type": "mqtt in",
+        "z": "0356907ecc50b51d",
+        "name": "Mosquitto /Groundfloor/LivingRoom/CO2",
+        "topic": "/Groundfloor/LivingRoom/CO2",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 560,
+        "wires": [
+            [
+                "e449a3c821db4ec4",
+                "ec1b1f65946f0bca"
+            ]
+        ]
+    },
+    {
+        "id": "e449a3c821db4ec4",
+        "type": "ui_gauge",
+        "z": "0356907ecc50b51d",
+        "name": "",
+        "group": "515d15541cb6dfb5",
+        "order": 1,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "CO2 in ppm Kohlendioxid",
+        "label": "ppm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "2000",
+        "colors": [
+            "#00ff00",
+            "#ffff00",
+            "#ff0000"
+        ],
+        "seg1": "800",
+        "seg2": "1400",
+        "diff": false,
+        "className": "",
+        "x": 870,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "ec1b1f65946f0bca",
+        "type": "ui_chart",
+        "z": "0356907ecc50b51d",
+        "name": "",
+        "group": "515d15541cb6dfb5",
+        "order": 4,
+        "width": 24,
+        "height": 6,
+        "label": "CO2 in ppm Kohlendioxid (parts per million)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "2000",
+        "removeOlder": "2",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8b6f0ce391627946",
+        "type": "ui_text",
+        "z": "0356907ecc50b51d",
+        "group": "515d15541cb6dfb5",
+        "order": 2,
+        "width": 24,
+        "height": 1,
+        "name": "",
+        "label": "CO2 in ppm Kohlendioxid (parts per million), 1000 = 0,1% Kohlendioxid",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1010,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "a36d2947a49c0687",
+        "type": "ui_text",
+        "z": "0356907ecc50b51d",
+        "group": "515d15541cb6dfb5",
+        "order": 3,
+        "width": 24,
+        "height": 1,
+        "name": "",
+        "label": "Unter 800 ppm hohe Raumluftqualität, 800-1000 mittel, 1000-1400 mäßig, über 1400 niedrig",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1080,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "5fcde17fe02e3d2b",
+        "type": "comment",
+        "z": "0356907ecc50b51d",
+        "name": "Group Erdgeschoss Wohnzimmer CO2",
+        "info": "",
+        "x": 1210,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "528016117255861d",
+        "type": "mqtt in",
+        "z": "9130df43d41b4346",
+        "name": "Mosquitto /Firstfloor/LivingRoom/Temperature",
+        "topic": "/Groundfloor/LivingRoom/Temperature",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 120,
+        "wires": [
+            [
+                "eb8237f9058d8530",
+                "cb15092cbd959da0",
+                "4c4ea361b5d8b5f5"
+            ]
+        ]
+    },
+    {
+        "id": "eb8237f9058d8530",
+        "type": "ui_gauge",
+        "z": "9130df43d41b4346",
+        "name": "",
+        "group": "c7ffec48ed7eb527",
+        "order": 1,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Temperatur in °C",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "40",
+        "colors": [
+            "#0000ff",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "18",
+        "seg2": "22",
+        "className": "",
+        "x": 810,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "61dd4fad42c38e2d",
+        "type": "comment",
+        "z": "9130df43d41b4346",
+        "name": "Tab ErsterStock",
+        "info": "",
+        "x": 160,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "cb15092cbd959da0",
+        "type": "ui_chart",
+        "z": "9130df43d41b4346",
+        "name": "",
+        "group": "c7ffec48ed7eb527",
+        "order": 5,
+        "width": 24,
+        "height": 6,
+        "label": "Temperatur in °C",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "40",
+        "removeOlder": "2",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 810,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b7a1453e6d19cf1b",
+        "type": "comment",
+        "z": "9130df43d41b4346",
+        "name": "Group Erster Stock Wohnzimmer",
+        "info": "",
+        "x": 1150,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "4c4ea361b5d8b5f5",
+        "type": "function",
+        "z": "9130df43d41b4346",
+        "name": "GetDateTime",
+        "func": "// Get date and time\nvar Time = (new Date()).toLocaleString('de-DE')\nmsg.payload = Time;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 280,
+        "wires": [
+            [
+                "5eb242cf4789c388"
+            ]
+        ]
+    },
+    {
+        "id": "5eb242cf4789c388",
+        "type": "ui_text",
+        "z": "9130df43d41b4346",
+        "group": "c7ffec48ed7eb527",
+        "order": 3,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit letzte Aktualisierung (jede 5min)",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 900,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "896d90aebe9e445a",
+        "type": "mqtt in",
+        "z": "9130df43d41b4346",
+        "name": "Mosquitto /FirstFloor/LivingRoom/Humidity",
+        "topic": "/Groundfloor/LivingRoom/Humidity",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 380,
+        "wires": [
+            [
+                "4f963ac740c67175",
+                "8cfedb6b5238b722"
+            ]
+        ]
+    },
+    {
+        "id": "4f963ac740c67175",
+        "type": "ui_gauge",
+        "z": "9130df43d41b4346",
+        "name": "",
+        "group": "c7ffec48ed7eb527",
+        "order": 7,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Luftfeuchte in % RH",
+        "label": "% RH",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ffff00",
+            "#00ff00",
+            "#0000ff"
+        ],
+        "seg1": "40",
+        "seg2": "60",
+        "className": "",
+        "x": 820,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8cfedb6b5238b722",
+        "type": "ui_chart",
+        "z": "9130df43d41b4346",
+        "name": "",
+        "group": "c7ffec48ed7eb527",
+        "order": 8,
+        "width": 24,
+        "height": 6,
+        "label": "Luftfeuchte in % RH",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "2",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 820,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "75906d7e03109db5",
+        "type": "comment",
+        "z": "769e65f9e3ec89b0",
+        "name": "Tab BuderusWarmwasser",
+        "info": "",
+        "x": 190,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "c44a4818684ca1b0",
+        "type": "mqtt in",
+        "z": "769e65f9e3ec89b0",
+        "name": "Mosquitto ems-esp/boiler_data_ww",
+        "topic": "ems-esp/boiler_data_ww",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 280,
+        "wires": [
+            [
+                "afb789cc674969e4",
+                "2da7e7c2c1b27468"
+            ]
+        ]
+    },
+    {
+        "id": "afb789cc674969e4",
+        "type": "function",
+        "z": "769e65f9e3ec89b0",
+        "name": "GetDateTime",
+        "func": "// Get date and time\nvar Time = (new Date()).toLocaleString('de-DE')\nmsg.payload = Time;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 700,
+        "wires": [
+            [
+                "2b145d3324e68aa5"
+            ]
+        ]
+    },
+    {
+        "id": "adc3b79c910f2cb7",
+        "type": "mqtt in",
+        "z": "769e65f9e3ec89b0",
+        "name": "Mosquitto ems-esp/thermostat_data",
+        "topic": "ems-esp/thermostat_data",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 2780,
+        "wires": [
+            [
+                "e1e310b5eb23c56f"
+            ]
+        ]
+    },
+    {
+        "id": "e1e310b5eb23c56f",
+        "type": "debug",
+        "z": "769e65f9e3ec89b0",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 460,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "15b02e874e5e222f",
+        "type": "mqtt in",
+        "z": "769e65f9e3ec89b0",
+        "name": "Mosquitto ems-esp/heartbeat",
+        "topic": "ems-esp/heartbeat",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 2860,
+        "wires": [
+            [
+                "b913a727d46f3d5d"
+            ]
+        ]
+    },
+    {
+        "id": "b913a727d46f3d5d",
+        "type": "debug",
+        "z": "769e65f9e3ec89b0",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 460,
+        "y": 2860,
+        "wires": []
+    },
+    {
+        "id": "2da7e7c2c1b27468",
+        "type": "json",
+        "z": "769e65f9e3ec89b0",
+        "name": "JSON-String to JS-Object",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 550,
+        "y": 280,
+        "wires": [
+            [
+                "ef78b1a2703c0330",
+                "fa392e80d3ce2765",
+                "58ae955681d5a42d",
+                "dba94c2d15a5b2e5"
+            ]
+        ]
+    },
+    {
+        "id": "ef78b1a2703c0330",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to wwcurtemp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.wwcurtemp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 280,
+        "wires": [
+            [
+                "c02ea53f589c67c0"
+            ]
+        ]
+    },
+    {
+        "id": "a1a6ecb7d968e474",
+        "type": "comment",
+        "z": "769e65f9e3ec89b0",
+        "name": "Group Warmwasser",
+        "info": "",
+        "x": 1510,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "c02ea53f589c67c0",
+        "type": "ui_gauge",
+        "z": "769e65f9e3ec89b0",
+        "name": "",
+        "group": "8e374d337271bea3",
+        "order": 1,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Pufferspeicher Isttemperatur in °C",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#0000ff",
+            "#0000ff",
+            "#0000ff"
+        ],
+        "seg1": "40",
+        "seg2": "60",
+        "className": "",
+        "x": 1140,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "2b145d3324e68aa5",
+        "type": "ui_text",
+        "z": "769e65f9e3ec89b0",
+        "group": "8e374d337271bea3",
+        "order": 4,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit letzte Aktualisierung (jede Minute)",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 920,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "fa392e80d3ce2765",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to wwsettemp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.wwsettemp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 360,
+        "wires": [
+            [
+                "9694e6a55174efe7"
+            ]
+        ]
+    },
+    {
+        "id": "9694e6a55174efe7",
+        "type": "ui_gauge",
+        "z": "769e65f9e3ec89b0",
+        "name": "",
+        "group": "8e374d337271bea3",
+        "order": 2,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Pufferspeicher Solltemperatur in °C",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00ffff",
+            "#00ffff",
+            "#00ffff"
+        ],
+        "seg1": "40",
+        "seg2": "60",
+        "className": "",
+        "x": 1140,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "7584d8bccc2145be",
+        "type": "function",
+        "z": "769e65f9e3ec89b0",
+        "name": "Prepare values for chart",
+        "func": "var msg = {};  // Line 1 current temperature\nvar msg1 = {}; // Line 2 settemperature\nvar msg2 = {}; // Line 3 circulation pump\nvar msg3 = {}; // Line 4 heating is on (and msg.5)\nvar msg4 = {}; // Line 5 water is heated up (and msg.6)\nvar msg5 = {}; // HeatingOnOff\nvar msg6 = {}; // WaterOnOff\n\n/*\nVariable context:\ncontext - the node’s local context\nflow - the flow scope context\nglobal - the global scope context\n*/\n// ##### Variable line 1 current temperature\nvar curtemp = flow.get(\"wwcurtemp\") || 0;\n\n// ##### Variable line 2 settemperature\nvar settemp = flow.get(\"wwsettemp\") || 0;\n\n// ##### Variable line 3 circulation pump\nvar circ = flow.get(\"wwcirc\") || 0;\nvar circvalue;\n\n// ##### Variable line 4 heating is on\nvar heat = global.get(\"heatingactive\") || 0;\nvar heatingactivevalue;\n\n// ##### Variable line 5 water is heated up\nvar charging = flow.get(\"wwcharging\") || 0;\nvar chargingvalue;\n\n// ##### Line 1 current temperature\nmsg.payload = curtemp;\nmsg.topic = 'Line 1';\n\n// ##### Line 2 settemperature\nmsg1.payload = settemp;\nmsg1.topic = 'Line 2';\n\n// ##### Line 3 circulation pump\nif (circ == 'on') {\n    circvalue = 94;\n}\nelse {\n    circvalue = 6;\n}\nmsg2.payload = circvalue;\nmsg2.topic = 'Line 3';\n\n// ##### Line 4 heating is on\nif (heat == 'on') {\n    heatingactivevalue = 98;\n    msg5.payload = 'Ein'\n}\nelse {\n    heatingactivevalue = 2;\n    msg5.payload = 'Aus'\n}\nmsg3.payload = heatingactivevalue;\nmsg3.topic = 'Line 4';\nmsg5.topic = 'HeatingOnOff';\n\n// ##### Line 5 water is heated up\nif (charging == 'on')\n{\n    chargingvalue = 96;\n    msg6.payload = 'Ein'\n}\nelse\n{\n    chargingvalue = 4;\n    msg6.payload = 'Aus'\n}\nmsg4.payload = chargingvalue;\nmsg4.topic = 'Line 5';\nmsg6.topic = 'WaterOnOff';\n\n// ##### Return the seven messages to the seven outputs\nreturn [msg, msg1, msg2, msg3, msg4, msg5, msg6];\n",
+        "outputs": 7,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1530,
+        "y": 440,
+        "wires": [
+            [
+                "bf23ce97c5832796"
+            ],
+            [
+                "bf23ce97c5832796"
+            ],
+            [
+                "bf23ce97c5832796"
+            ],
+            [
+                "bf23ce97c5832796"
+            ],
+            [
+                "bf23ce97c5832796"
+            ],
+            [
+                "96f47b6b3b3e0404"
+            ],
+            [
+                "d1b5e6ece5d7a1aa"
+            ]
+        ]
+    },
+    {
+        "id": "bf23ce97c5832796",
+        "type": "ui_chart",
+        "z": "769e65f9e3ec89b0",
+        "name": "",
+        "group": "8e374d337271bea3",
+        "order": 13,
+        "width": 30,
+        "height": 9,
+        "label": "Pufferspeicher: Isttemp. dunkelblau / Solltemp. hellblau / Zirkulationspumpe ein grün / Heizung ein rot / Warmwasser ein orange",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#0000ff",
+            "#00ffff",
+            "#00ff00",
+            "#ff0000",
+            "#ff7f00",
+            "#45d728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2130,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "58ae955681d5a42d",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "msg.payload.wwcurtemp to flow.wwcurtemp / msg.payload.wwsettemp to flow.wwsettemp / ...",
+        "rules": [
+            {
+                "t": "set",
+                "p": "wwcurtemp",
+                "pt": "flow",
+                "to": "payload.wwcurtemp",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "wwsettemp",
+                "pt": "flow",
+                "to": "payload.wwsettemp",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "wwcharging",
+                "pt": "flow",
+                "to": "payload.wwcharging",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "wwcirc",
+                "pt": "flow",
+                "to": "payload.wwcirc",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1060,
+        "y": 440,
+        "wires": [
+            [
+                "7584d8bccc2145be"
+            ]
+        ]
+    },
+    {
+        "id": "8c876d4c907afc60",
+        "type": "mqtt in",
+        "z": "769e65f9e3ec89b0",
+        "name": "Mosquitto ems-esp/boiler_data",
+        "topic": "ems-esp/boiler_data",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 840,
+        "wires": [
+            [
+                "6f7eb4d16644f540",
+                "8c88adf9f138b7ee"
+            ]
+        ]
+    },
+    {
+        "id": "6f7eb4d16644f540",
+        "type": "function",
+        "z": "769e65f9e3ec89b0",
+        "name": "GetDateTime",
+        "func": "// Get date and time\nvar Time = (new Date()).toLocaleString('de-DE')\nmsg.payload = Time;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 1320,
+        "wires": [
+            [
+                "99848731fa51ae8c",
+                "0d2f69715693929e",
+                "a6741f42b16027d7"
+            ]
+        ]
+    },
+    {
+        "id": "8c88adf9f138b7ee",
+        "type": "json",
+        "z": "769e65f9e3ec89b0",
+        "name": "JSON-String to JS-Object",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 550,
+        "y": 840,
+        "wires": [
+            [
+                "0f082d78d571b115",
+                "96fb0e38f6915963",
+                "7ab5abbe01cddb10",
+                "9a67ae9f162ac841",
+                "a48e9c039a761967",
+                "e5d61405357b1717",
+                "fe4391e4645e7a1a",
+                "0ae6c3f93a8c8eba",
+                "02a57589feb0aee9",
+                "aee55b3573089df0",
+                "4e7a1ed98a5bcd9d",
+                "e95bf31bc0ea0822",
+                "43033101dcd33be9",
+                "70ec6a8ada5051ff",
+                "44917f06f2f99c78",
+                "29d1b73a50421107",
+                "e0227923629d827c"
+            ]
+        ]
+    },
+    {
+        "id": "0f082d78d571b115",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to outdoortemp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.outdoortemp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 840,
+        "wires": [
+            [
+                "3bcb17cd6dd234ab"
+            ]
+        ]
+    },
+    {
+        "id": "9a67ae9f162ac841",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to heatingactive",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.heatingactive",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 1160,
+        "wires": [
+            [
+                "6b83d8102d6c79c4"
+            ]
+        ]
+    },
+    {
+        "id": "96fb0e38f6915963",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to curflowtemp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.curflowtemp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 920,
+        "wires": [
+            [
+                "aaac74c71e5dfd9f"
+            ]
+        ]
+    },
+    {
+        "id": "7ab5abbe01cddb10",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to rettemp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.rettemp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 1000,
+        "wires": [
+            [
+                "809a5f42966112dd"
+            ]
+        ]
+    },
+    {
+        "id": "6f8185def5504a91",
+        "type": "inject",
+        "z": "769e65f9e3ec89b0",
+        "name": "Init after 0.5sec",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 120,
+        "wires": [
+            [
+                "92fd7a33b8ec335a"
+            ]
+        ]
+    },
+    {
+        "id": "92fd7a33b8ec335a",
+        "type": "function",
+        "z": "769e65f9e3ec89b0",
+        "name": "Set global value heatingactive and wwcharging to \"off\", outdoortemp to \"0\"",
+        "func": "// Get the variables and initialize them\n/*\nVariable context:\ncontext - the node’s local context\nflow - the flow scope context\nglobal - the global scope context\n*/\nvar tmp = global.get(\"heatingactive\") || 0; // Heizung ein\nvar tmp1 = global.get(\"wwcharging\") || 0; // Warmwasser ein\nvar tmp2 = global.get(\"outdoortemp\") || 0; // Aussentemperatur\n\n// Set the variables\nglobal.set(\"heatingactive\", \"off\");\nglobal.set(\"wwcharging\", \"off\");\nglobal.set(\"outdoortemp\", \"0\");\n\n// Return value of the function\nmsg.payload = tmp;\nreturn msg;\n\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "6b83d8102d6c79c4",
+        "type": "function",
+        "z": "769e65f9e3ec89b0",
+        "name": "Set global value heatingactive",
+        "func": "// Set global value heatingactive\nglobal.set(\"heatingactive\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "85bb4913c59a5c84",
+        "type": "comment",
+        "z": "769e65f9e3ec89b0",
+        "name": "Initialize global variables",
+        "info": "",
+        "x": 190,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "3bcb17cd6dd234ab",
+        "type": "ui_gauge",
+        "z": "769e65f9e3ec89b0",
+        "name": "",
+        "group": "ba44d2bfa433f113",
+        "order": 1,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Außentemperatur in °C",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": "-40",
+        "max": "40",
+        "colors": [
+            "#0000ff",
+            "#0000ff",
+            "#0000ff"
+        ],
+        "seg1": "10",
+        "seg2": "25",
+        "className": "",
+        "x": 1140,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "aaac74c71e5dfd9f",
+        "type": "ui_gauge",
+        "z": "769e65f9e3ec89b0",
+        "name": "",
+        "group": "ba44d2bfa433f113",
+        "order": 2,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Vorlauftemperatur in °C",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00ffff",
+            "#00ffff",
+            "#00ffff"
+        ],
+        "seg1": "40",
+        "seg2": "60",
+        "className": "",
+        "x": 1150,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "809a5f42966112dd",
+        "type": "ui_gauge",
+        "z": "769e65f9e3ec89b0",
+        "name": "",
+        "group": "ba44d2bfa433f113",
+        "order": 3,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Rücklauftemperatur in °C",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00ff00",
+            "#00ff00",
+            "#00ff00"
+        ],
+        "seg1": "40",
+        "seg2": "60",
+        "className": "",
+        "x": 1150,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "99848731fa51ae8c",
+        "type": "ui_text",
+        "z": "769e65f9e3ec89b0",
+        "group": "ba44d2bfa433f113",
+        "order": 4,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit letzte Aktualisierung (jede Minute)",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 920,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "a48e9c039a761967",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "msg.payload.outdoortemp to flow.outdoortemp / msg.payload.curflowtemp to flow.curflowtemp / ...",
+        "rules": [
+            {
+                "t": "set",
+                "p": "outdoortemp",
+                "pt": "flow",
+                "to": "payload.outdoortemp",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "curflowtemp",
+                "pt": "flow",
+                "to": "payload.curflowtemp",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "rettemp",
+                "pt": "flow",
+                "to": "payload.rettemp",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "heatingactive",
+                "pt": "flow",
+                "to": "payload.heatingactive",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1080,
+        "y": 1080,
+        "wires": [
+            [
+                "2f6d11ad8b7db89c"
+            ]
+        ]
+    },
+    {
+        "id": "2f6d11ad8b7db89c",
+        "type": "function",
+        "z": "769e65f9e3ec89b0",
+        "name": "Prepare values for chart",
+        "func": "var msg = {};\nvar msg1 = {};\nvar msg2 = {};\nvar msg3 = {};\nvar msg4 = {};\n\n/*\nVariable context:\ncontext - the node’s local context\nflow - the flow scope context\nglobal - the global scope context\n*/\nvar aussentemp = flow.get(\"outdoortemp\") || 0;\n\nvar vorlauf = flow.get(\"curflowtemp\") || 0;\n\nvar ruecklauf = flow.get(\"rettemp\") || 0;\n\nvar heat = flow.get(\"heatingactive\") || 0; // Heizung\nvar heatingactivevalue;\n\nvar charging = global.get(\"wwcharging\") || 0; // Warmwasser\nvar chargingvalue;\n\n// ##### Line 1 outdoortemp\nmsg.payload = aussentemp;\nmsg.topic = 'Line 1';\n\n// ##### Line 2 Vorlauftemperatur\nmsg1.payload = vorlauf;\nmsg1.topic = 'Line 2';\n\n// ##### Line 3 Ruecklauftemperatur\nmsg2.payload = ruecklauf;\nmsg2.topic = 'Line 3';\n\n// ##### Line 4 heating is on\nif (heat == 'on') {\n    heatingactivevalue = 98;\n}\nelse {\n    heatingactivevalue = 2;\n}\nmsg3.payload = heatingactivevalue;\nmsg3.topic = 'Line 4';\n\n// ##### Line 5 water is heated up\nif (charging == 'on') {\n    chargingvalue = 96;\n}\nelse {\n    chargingvalue = 4;\n}\nmsg4.payload = chargingvalue;\nmsg4.topic = 'Line 5';\n\n// ##### Return the five messages to the five outputs\nreturn [msg, msg1, msg2, msg3, msg4];\n",
+        "outputs": 5,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1590,
+        "y": 1080,
+        "wires": [
+            [
+                "a4691efeef04aeca"
+            ],
+            [
+                "a4691efeef04aeca"
+            ],
+            [
+                "a4691efeef04aeca"
+            ],
+            [
+                "a4691efeef04aeca"
+            ],
+            [
+                "a4691efeef04aeca"
+            ]
+        ]
+    },
+    {
+        "id": "a4691efeef04aeca",
+        "type": "ui_chart",
+        "z": "769e65f9e3ec89b0",
+        "name": "",
+        "group": "ba44d2bfa433f113",
+        "order": 11,
+        "width": 30,
+        "height": 9,
+        "label": "Aussentemp. dunkelblau / Vorlauftemp. hellblau / Ruecklauftemp. grün / Heizung ein rot / Warmwasser ein orange",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-10",
+        "ymax": "100",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#0000ff",
+            "#00ffff",
+            "#00ff00",
+            "#ff0000",
+            "#ff7f00",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2170,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9815becbdfe4071c",
+        "type": "comment",
+        "z": "769e65f9e3ec89b0",
+        "name": "Tab BuderusHeizung",
+        "info": "",
+        "x": 170,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "5d00a42c69e5d795",
+        "type": "comment",
+        "z": "769e65f9e3ec89b0",
+        "name": "Group Heizung",
+        "info": "",
+        "x": 1500,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "2531fa7e8be9907e",
+        "type": "comment",
+        "z": "769e65f9e3ec89b0",
+        "name": "Tab BuderusAllgemein",
+        "info": "",
+        "x": 180,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "e5d61405357b1717",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to syspress",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.syspress",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1560,
+        "wires": [
+            [
+                "bb0a2f9a6c5e1311"
+            ]
+        ]
+    },
+    {
+        "id": "bb0a2f9a6c5e1311",
+        "type": "ui_gauge",
+        "z": "769e65f9e3ec89b0",
+        "name": "",
+        "group": "33f1d2f3cc3ae080",
+        "order": 1,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Systemdruck in bar",
+        "label": "bar",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "4",
+        "colors": [
+            "#0000ff",
+            "#00ff00",
+            "#ff0000"
+        ],
+        "seg1": "1.2",
+        "seg2": "1.8",
+        "className": "",
+        "x": 1130,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "e792da41e0281f36",
+        "type": "comment",
+        "z": "769e65f9e3ec89b0",
+        "name": "Group Allgemein",
+        "info": "",
+        "x": 1500,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "fe4391e4645e7a1a",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to exhausttemp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.exhausttemp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 1720,
+        "wires": [
+            [
+                "7b3d307554cc8609"
+            ]
+        ]
+    },
+    {
+        "id": "7b3d307554cc8609",
+        "type": "ui_gauge",
+        "z": "769e65f9e3ec89b0",
+        "name": "",
+        "group": "33f1d2f3cc3ae080",
+        "order": 3,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Abgastemperatur in °C",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00ffff",
+            "#00ffff",
+            "#00ffff"
+        ],
+        "seg1": "40",
+        "seg2": "60",
+        "className": "",
+        "x": 1140,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "0ae6c3f93a8c8eba",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to burnstarts",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.burnstarts",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1800,
+        "wires": [
+            [
+                "6756f4d0ad110143"
+            ]
+        ]
+    },
+    {
+        "id": "6756f4d0ad110143",
+        "type": "ui_text",
+        "z": "769e65f9e3ec89b0",
+        "group": "33f1d2f3cc3ae080",
+        "order": 7,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Brennerstarts",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "02a57589feb0aee9",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to burnworkmin",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.burnworkmin",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 1880,
+        "wires": [
+            [
+                "d70bb6182e6016b3"
+            ]
+        ]
+    },
+    {
+        "id": "f72d2ed22d75a055",
+        "type": "ui_text",
+        "z": "769e65f9e3ec89b0",
+        "group": "33f1d2f3cc3ae080",
+        "order": 10,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Brennerlaufzeit gesamt in Stunden",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1560,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "aee55b3573089df0",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to curburnpow",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.curburnpow",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 1640,
+        "wires": [
+            [
+                "1416c006bcd16366"
+            ]
+        ]
+    },
+    {
+        "id": "1416c006bcd16366",
+        "type": "ui_gauge",
+        "z": "769e65f9e3ec89b0",
+        "name": "",
+        "group": "33f1d2f3cc3ae080",
+        "order": 2,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Brennerleistung in %",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#0000ff",
+            "#0000ff",
+            "#0000ff"
+        ],
+        "seg1": "40",
+        "seg2": "60",
+        "className": "",
+        "x": 1140,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "dba94c2d15a5b2e5",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to wwcharging",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.wwcharging",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 540,
+        "wires": [
+            [
+                "6626130183dddb1b"
+            ]
+        ]
+    },
+    {
+        "id": "6626130183dddb1b",
+        "type": "function",
+        "z": "769e65f9e3ec89b0",
+        "name": "Set global value wwcharging",
+        "func": "// Set global value heatingactive\nglobal.set(\"wwcharging\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4e7a1ed98a5bcd9d",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to outdoortemp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.outdoortemp",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 1240,
+        "wires": [
+            [
+                "d118fac65a2a794f"
+            ]
+        ]
+    },
+    {
+        "id": "d118fac65a2a794f",
+        "type": "function",
+        "z": "769e65f9e3ec89b0",
+        "name": "Set global value outdoortemp",
+        "func": "// Set global value heatingactive\nglobal.set(\"outdoortemp\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0d2f69715693929e",
+        "type": "ui_text",
+        "z": "769e65f9e3ec89b0",
+        "group": "33f1d2f3cc3ae080",
+        "order": 4,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit letzte Aktualisierung (jede Minute)",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 920,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "e95bf31bc0ea0822",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "msg.payload.curburnpowto flow.curburnpow / msg.payload.exhausttemp to flow.exhausttemp/ ...",
+        "rules": [
+            {
+                "t": "set",
+                "p": "curburnpow",
+                "pt": "flow",
+                "to": "payload.curburnpow",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "exhausttemp",
+                "pt": "flow",
+                "to": "payload.exhausttemp",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "heatingactive",
+                "pt": "flow",
+                "to": "payload.heatingactive",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1070,
+        "y": 2120,
+        "wires": [
+            [
+                "99a3605957e46112"
+            ]
+        ]
+    },
+    {
+        "id": "99a3605957e46112",
+        "type": "function",
+        "z": "769e65f9e3ec89b0",
+        "name": "Prepare values for chart",
+        "func": "var msg = {};\nvar msg1 = {};\nvar msg2 = {};\nvar msg3 = {};\n\n/*\nVariable context:\ncontext - the node’s local context\nflow - the flow scope context\nglobal - the global scope context\n*/\nvar aktleistung = flow.get(\"curburnpow\") || 0;\n\nvar abgastemp = flow.get(\"exhausttemp\") || 0;\n\nvar heat = flow.get(\"heatingactive\") || 0; // Heizung\nvar heatingactivevalue;\n\nvar charging = global.get(\"wwcharging\") || 0; // Warmwasser\nvar chargingvalue;\n\n// ##### Line 1 aktuelle Leistung Brenner\nmsg.payload = aktleistung;\nmsg.topic = 'Line 1';\n\n// ##### Line 2 Abgastemperatur\nmsg1.payload = abgastemp;\nmsg1.topic = 'Line 2';\n\n// ##### Line 3 heating is on\nif (heat == 'on') {\n    heatingactivevalue = 98;\n}\nelse {\n    heatingactivevalue = 2;\n}\nmsg2.payload = heatingactivevalue;\nmsg2.topic = 'Line 3';\n\n// ##### Line 4 water is heated up\nif (charging == 'on') {\n    chargingvalue = 96;\n}\nelse {\n    chargingvalue = 4;\n}\nmsg3.payload = chargingvalue;\nmsg3.topic = 'Line 4';\n\n// ##### Return the four messages to the four outputs\nreturn [msg, msg1, msg2, msg3];\n",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1570,
+        "y": 2120,
+        "wires": [
+            [
+                "787600035ed9c735"
+            ],
+            [
+                "787600035ed9c735"
+            ],
+            [
+                "787600035ed9c735"
+            ],
+            [
+                "787600035ed9c735"
+            ]
+        ]
+    },
+    {
+        "id": "787600035ed9c735",
+        "type": "ui_chart",
+        "z": "769e65f9e3ec89b0",
+        "name": "",
+        "group": "33f1d2f3cc3ae080",
+        "order": 19,
+        "width": 30,
+        "height": 9,
+        "label": "Brennerleistung dunkelblau / Abgastemp. hellblau / Heizung ein rot / Warmwasser ein orange",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#0000ff",
+            "#00ffff",
+            "#ff0000",
+            "#ff7f00",
+            "#ff7f0e",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2080,
+        "y": 2120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43033101dcd33be9",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to heatworkmin",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.heatworkmin",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 1960,
+        "wires": [
+            [
+                "79d79ca41a98d5a6"
+            ]
+        ]
+    },
+    {
+        "id": "7e290b09c40d9939",
+        "type": "ui_text",
+        "z": "769e65f9e3ec89b0",
+        "group": "33f1d2f3cc3ae080",
+        "order": 13,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Brennerlaufzeit Heizung in Stunden",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1560,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "70ec6a8ada5051ff",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "msg.payload.burnworkmin flow.burnworkmin / msg.payload.heatworkmin to flow.heatworkmin",
+        "rules": [
+            {
+                "t": "set",
+                "p": "burnworkmin",
+                "pt": "flow",
+                "to": "payload.burnworkmin",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "heatworkmin",
+                "pt": "flow",
+                "to": "payload.heatworkmin",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1060,
+        "y": 2040,
+        "wires": [
+            [
+                "7515a0c63e7f6c69"
+            ]
+        ]
+    },
+    {
+        "id": "7515a0c63e7f6c69",
+        "type": "function",
+        "z": "769e65f9e3ec89b0",
+        "name": "Calculate burner for hot water on in h",
+        "func": "/*\nVariable context:\ncontext - the node’s local context\nflow - the flow scope context\nglobal - the global scope context\n*/\nvar brennerein = flow.get(\"burnworkmin\") || 0;\n\nvar heizungein = flow.get(\"heatworkmin\") || 0;\n\nvar warmwasserein = {};\nwarmwasserein.topic = \"HeizungFuerWarmwasserEin\";\nwarmwasserein.payload = (brennerein - heizungein) / 60;\n\n// Round 2 decimal places\nwarmwasserein.payload = (Math.round(warmwasserein.payload * 100.0) / 100.0);\n\nreturn [warmwasserein];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1610,
+        "y": 2040,
+        "wires": [
+            [
+                "9fac28c96e1911ec"
+            ]
+        ]
+    },
+    {
+        "id": "9fac28c96e1911ec",
+        "type": "ui_text",
+        "z": "769e65f9e3ec89b0",
+        "group": "33f1d2f3cc3ae080",
+        "order": 16,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Brennerlaufzeit Warmwasser in Stunden",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 2000,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "d70bb6182e6016b3",
+        "type": "function",
+        "z": "769e65f9e3ec89b0",
+        "name": "BurnWorkMin to BurnWorkH (/60)",
+        "func": "// Divide by 60, min to h\nmsg.payload = msg.payload / 60;\n\n// Round 2 decimal places\nmsg.payload = (Math.round(msg.payload * 100.0) / 100.0);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 1880,
+        "wires": [
+            [
+                "f72d2ed22d75a055"
+            ]
+        ]
+    },
+    {
+        "id": "79d79ca41a98d5a6",
+        "type": "function",
+        "z": "769e65f9e3ec89b0",
+        "name": "HeatWorkMin to HeatWorkH (/60)",
+        "func": "// Divide by 60, min to h\nmsg.payload = msg.payload / 60;\n\n// Round 2 decimal places\nmsg.payload = (Math.round(msg.payload * 100.0) / 100.0);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 1960,
+        "wires": [
+            [
+                "7e290b09c40d9939"
+            ]
+        ]
+    },
+    {
+        "id": "59a15db4f7e939b0",
+        "type": "comment",
+        "z": "769e65f9e3ec89b0",
+        "name": "Tab BuderusService",
+        "info": "",
+        "x": 190,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "44917f06f2f99c78",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to lastcode",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.lastcode",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 2360,
+        "wires": [
+            [
+                "9d32d11cd86f4f6c"
+            ]
+        ]
+    },
+    {
+        "id": "9d32d11cd86f4f6c",
+        "type": "ui_text",
+        "z": "769e65f9e3ec89b0",
+        "group": "c561943f930dcf2b",
+        "order": 5,
+        "width": 13,
+        "height": 1,
+        "name": "",
+        "label": "Stoerungscode",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "29d1b73a50421107",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to servicecode",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.servicecode",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 2440,
+        "wires": [
+            [
+                "a4de4c084eba1119"
+            ]
+        ]
+    },
+    {
+        "id": "a4de4c084eba1119",
+        "type": "ui_text",
+        "z": "769e65f9e3ec89b0",
+        "group": "c561943f930dcf2b",
+        "order": 7,
+        "width": 13,
+        "height": 1,
+        "name": "",
+        "label": "Servicecode",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 2440,
+        "wires": []
+    },
+    {
+        "id": "e0227923629d827c",
+        "type": "change",
+        "z": "769e65f9e3ec89b0",
+        "name": "Filter to servicecodenumber",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.servicecodenumber",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 2520,
+        "wires": [
+            [
+                "c59ac628b3b1de7e"
+            ]
+        ]
+    },
+    {
+        "id": "c59ac628b3b1de7e",
+        "type": "ui_text",
+        "z": "769e65f9e3ec89b0",
+        "group": "c561943f930dcf2b",
+        "order": 9,
+        "width": 13,
+        "height": 1,
+        "name": "",
+        "label": "Servicecodenummer",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1140,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "063ea8fa5206489f",
+        "type": "comment",
+        "z": "769e65f9e3ec89b0",
+        "name": "Group Service",
+        "info": "",
+        "x": 1490,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "a6741f42b16027d7",
+        "type": "ui_text",
+        "z": "769e65f9e3ec89b0",
+        "group": "c561943f930dcf2b",
+        "order": 2,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit letzte Aktualisierung (jede Minute)",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 920,
+        "y": 2600,
+        "wires": []
+    },
+    {
+        "id": "96f47b6b3b3e0404",
+        "type": "ui_led",
+        "z": "769e65f9e3ec89b0",
+        "order": 8,
+        "group": "8e374d337271bea3",
+        "width": 5,
+        "height": 1,
+        "label": "Brenner für Heizung",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "Aus",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "Ein",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Brenner für Heizung",
+        "x": 1800,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "d1b5e6ece5d7a1aa",
+        "type": "ui_led",
+        "z": "769e65f9e3ec89b0",
+        "order": 10,
+        "group": "8e374d337271bea3",
+        "width": 5,
+        "height": 1,
+        "label": "Brenner für Warmwasser",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "Aus",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "Ein",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Brenner für Warmwasser",
+        "x": 1810,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "b0f89b615e74c4f8",
+        "type": "mqtt in",
+        "z": "147c8d3403dc75f8",
+        "name": "Mosquitto /Groundfloor/SolarMax1/Data",
+        "topic": "/Groundfloor/SolarMax1/Data",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 300,
+        "wires": [
+            [
+                "876e8aa7f19bb929",
+                "66b81c966ccf7946",
+                "3b8bef7eb0986d22",
+                "7b9818b4c899bd0a"
+            ]
+        ]
+    },
+    {
+        "id": "876e8aa7f19bb929",
+        "type": "json",
+        "z": "147c8d3403dc75f8",
+        "name": "JSON-String to JS-Object",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 570,
+        "y": 300,
+        "wires": [
+            [
+                "d2f61ae208fea6c8",
+                "4ca3922e1ea7e6da",
+                "a3abe6bdfeba2ca8",
+                "75a07c8729164794",
+                "41610d5bbd1e4226",
+                "4d492de8301d86dc",
+                "47f68e4ecb492ebb",
+                "3cb548f06758fc98",
+                "d0e9b34878a61dec"
+            ]
+        ]
+    },
+    {
+        "id": "d2f61ae208fea6c8",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to PAC",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.PAC",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 300,
+        "wires": [
+            [
+                "e061cd8e24f8805a",
+                "04ce467111e160ce",
+                "f65b6e549182e9c7"
+            ]
+        ]
+    },
+    {
+        "id": "e061cd8e24f8805a",
+        "type": "ui_gauge",
+        "z": "147c8d3403dc75f8",
+        "name": "",
+        "group": "0c613f1510065e7f",
+        "order": 7,
+        "width": 6,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Wechselrichter 1 Leistung",
+        "label": "Watt",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4500",
+        "colors": [
+            "#00ff00",
+            "#ffff00",
+            "#ff0000"
+        ],
+        "seg1": "1500",
+        "seg2": "3000",
+        "diff": false,
+        "className": "",
+        "x": 1090,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "66b81c966ccf7946",
+        "type": "function",
+        "z": "147c8d3403dc75f8",
+        "name": "GetDateTime",
+        "func": "// Get date and time\nvar Time = (new Date()).toLocaleString('de-DE')\nmsg.payload = Time;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1100,
+        "wires": [
+            [
+                "350623cf5e7363e6"
+            ]
+        ]
+    },
+    {
+        "id": "350623cf5e7363e6",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 1,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "1: Datum/Uhrzeit letzte Aktualisierung (jede Minute)",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 950,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "04ce467111e160ce",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 25,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "1: AC-Leistung in Watt",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1080,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4ca3922e1ea7e6da",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KHR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KHR",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 460,
+        "wires": [
+            [
+                "a5e9f2e51f755f94"
+            ]
+        ]
+    },
+    {
+        "id": "a5e9f2e51f755f94",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 49,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "1: Betriebsstunden",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1070,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "a3abe6bdfeba2ca8",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KT0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KT0",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 540,
+        "wires": [
+            [
+                "400c3fa1ae19693f"
+            ]
+        ]
+    },
+    {
+        "id": "400c3fa1ae19693f",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 55,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "1: Energie Total in KWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1090,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "75a07c8729164794",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KYR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KYR",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 620,
+        "wires": [
+            [
+                "891b3109fcdd3e11"
+            ]
+        ]
+    },
+    {
+        "id": "891b3109fcdd3e11",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 61,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "1: Energie Jahr in KWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1090,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "41610d5bbd1e4226",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KMT",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KMT",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 700,
+        "wires": [
+            [
+                "c925b6849d7e8f30"
+            ]
+        ]
+    },
+    {
+        "id": "c925b6849d7e8f30",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 67,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "1: Energie Monat in KWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1090,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "4d492de8301d86dc",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KDY",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KDY",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 780,
+        "wires": [
+            [
+                "76e306591edc10c8"
+            ]
+        ]
+    },
+    {
+        "id": "76e306591edc10c8",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 31,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "1: Energie Tag in KWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1080,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "47f68e4ecb492ebb",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to PRL",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.PRL",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 860,
+        "wires": [
+            [
+                "7648816665d4c952"
+            ]
+        ]
+    },
+    {
+        "id": "7648816665d4c952",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 37,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "1: Relative Leistung in %",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1090,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "3cb548f06758fc98",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to TKK",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.TKK",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 940,
+        "wires": [
+            [
+                "f46969d318ea1d55"
+            ]
+        ]
+    },
+    {
+        "id": "f46969d318ea1d55",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 43,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "1: Temperatur Leistungsteil in Grad",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "e5df062b760da886",
+        "type": "comment",
+        "z": "147c8d3403dc75f8",
+        "name": "Tab SolarMax 1-3",
+        "info": "",
+        "x": 160,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "3a7df6e028736ddf",
+        "type": "comment",
+        "z": "147c8d3403dc75f8",
+        "name": "Group Wechselrichter 1-3",
+        "info": "",
+        "x": 1350,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "5e4a068615225b1e",
+        "type": "json",
+        "z": "147c8d3403dc75f8",
+        "name": "JSON-String to JS-Object",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 570,
+        "y": 1320,
+        "wires": [
+            [
+                "f357099ad8dce9b1",
+                "1745f167951f969f",
+                "8943b49de1c72bdd",
+                "5fc56eb1247f7ecd",
+                "ae7537d4b7322acc",
+                "02e863fc24983ac5",
+                "9683599b16a286b2",
+                "e292ab859fe418d1",
+                "cd090f1d6fe637c6"
+            ]
+        ]
+    },
+    {
+        "id": "f357099ad8dce9b1",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to PAC",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.PAC",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1320,
+        "wires": [
+            [
+                "38f67f3fa93530e7",
+                "ea1b228950033d34",
+                "ff9121600ca831bf"
+            ]
+        ]
+    },
+    {
+        "id": "38f67f3fa93530e7",
+        "type": "ui_gauge",
+        "z": "147c8d3403dc75f8",
+        "name": "",
+        "group": "0c613f1510065e7f",
+        "order": 9,
+        "width": 6,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Wechselrichter 2 Leistung",
+        "label": "Watt",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4500",
+        "colors": [
+            "#00ff00",
+            "#ffff00",
+            "#ff0000"
+        ],
+        "seg1": "1500",
+        "seg2": "3000",
+        "diff": false,
+        "className": "",
+        "x": 1090,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "ea1b228950033d34",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 27,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "2: AC-Leistung in Watt",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1080,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "1745f167951f969f",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KHR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KHR",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1480,
+        "wires": [
+            [
+                "080304d346a224db"
+            ]
+        ]
+    },
+    {
+        "id": "080304d346a224db",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 51,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "2: Betriebsstunden",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1070,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "8943b49de1c72bdd",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KT0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KT0",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1560,
+        "wires": [
+            [
+                "f310c7754f374993"
+            ]
+        ]
+    },
+    {
+        "id": "f310c7754f374993",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 57,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "2: Energie Total in KWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1090,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "5fc56eb1247f7ecd",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KYR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KYR",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1640,
+        "wires": [
+            [
+                "79c747f30c609e4d"
+            ]
+        ]
+    },
+    {
+        "id": "79c747f30c609e4d",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 63,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "2: Energie Jahr in KWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1090,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "ae7537d4b7322acc",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KMT",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KMT",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1720,
+        "wires": [
+            [
+                "95aa2734056530ec"
+            ]
+        ]
+    },
+    {
+        "id": "95aa2734056530ec",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 69,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "2: Energie Monat in KWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1090,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "02e863fc24983ac5",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KDY",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KDY",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1800,
+        "wires": [
+            [
+                "614171a225edb040"
+            ]
+        ]
+    },
+    {
+        "id": "614171a225edb040",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 33,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "2: Energie Tag in KWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1080,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "9683599b16a286b2",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to PRL",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.PRL",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1880,
+        "wires": [
+            [
+                "cd6a161e4196f8b0"
+            ]
+        ]
+    },
+    {
+        "id": "cd6a161e4196f8b0",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 39,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "2: Relative Leistung in %",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1090,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "e292ab859fe418d1",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to TKK",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.TKK",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1960,
+        "wires": [
+            [
+                "dbc1039473a6ddf8"
+            ]
+        ]
+    },
+    {
+        "id": "dbc1039473a6ddf8",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 45,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "2: Temperatur Leistungsteil in Grad",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1120,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "a540d228c4bfecc0",
+        "type": "mqtt in",
+        "z": "147c8d3403dc75f8",
+        "name": "Mosquitto /Groundfloor/SolarMax2/Data",
+        "topic": "/Groundfloor/SolarMax2/Data",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 1320,
+        "wires": [
+            [
+                "5e4a068615225b1e",
+                "bed7514221470015",
+                "901804d0bef0baee",
+                "7b9818b4c899bd0a"
+            ]
+        ]
+    },
+    {
+        "id": "5a4f0ad337102b8f",
+        "type": "json",
+        "z": "147c8d3403dc75f8",
+        "name": "JSON-String to JS-Object",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 590,
+        "y": 2340,
+        "wires": [
+            [
+                "f9163f852edc0476",
+                "96043beb1c0f4639",
+                "315162a54076bcd9",
+                "c985920d2bb6f2de",
+                "1d8a5b469ae45928",
+                "56776378bd9f6da5",
+                "813dce0346f21179",
+                "b265000327c280a2",
+                "d9823938ea3c53bf"
+            ]
+        ]
+    },
+    {
+        "id": "f9163f852edc0476",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to PAC",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.PAC",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 2340,
+        "wires": [
+            [
+                "a68bd4e724db5448",
+                "8c8a82493dd38321",
+                "3af26589868adf84"
+            ]
+        ]
+    },
+    {
+        "id": "a68bd4e724db5448",
+        "type": "ui_gauge",
+        "z": "147c8d3403dc75f8",
+        "name": "",
+        "group": "0c613f1510065e7f",
+        "order": 11,
+        "width": 6,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Wechselrichter 3 Leistung",
+        "label": "Watt",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4500",
+        "colors": [
+            "#00ff00",
+            "#ffff00",
+            "#ff0000"
+        ],
+        "seg1": "1500",
+        "seg2": "3000",
+        "diff": false,
+        "className": "",
+        "x": 1110,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "8c8a82493dd38321",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 29,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "3: AC-Leistung in Watt",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1100,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "96043beb1c0f4639",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KHR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KHR",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 2500,
+        "wires": [
+            [
+                "f1bf52e474ffefa3"
+            ]
+        ]
+    },
+    {
+        "id": "f1bf52e474ffefa3",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 53,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "3: Betriebsstunden",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1090,
+        "y": 2500,
+        "wires": []
+    },
+    {
+        "id": "315162a54076bcd9",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KT0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KT0",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 2580,
+        "wires": [
+            [
+                "1b2698873107146e"
+            ]
+        ]
+    },
+    {
+        "id": "1b2698873107146e",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 59,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "3: Energie Total in KWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 2580,
+        "wires": []
+    },
+    {
+        "id": "c985920d2bb6f2de",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KYR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KYR",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 2660,
+        "wires": [
+            [
+                "20fc73b7bf0fe3e9"
+            ]
+        ]
+    },
+    {
+        "id": "20fc73b7bf0fe3e9",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 65,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "3: Energie Jahr in KWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 2660,
+        "wires": []
+    },
+    {
+        "id": "1d8a5b469ae45928",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KMT",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KMT",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 2740,
+        "wires": [
+            [
+                "d8a888ed92d0586f"
+            ]
+        ]
+    },
+    {
+        "id": "d8a888ed92d0586f",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 71,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "3: Energie Monat in KWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 2740,
+        "wires": []
+    },
+    {
+        "id": "56776378bd9f6da5",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to KDY",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.KDY",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 2820,
+        "wires": [
+            [
+                "e8f517a92b235573"
+            ]
+        ]
+    },
+    {
+        "id": "e8f517a92b235573",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 35,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "3: Energie Tag in KWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1100,
+        "y": 2820,
+        "wires": []
+    },
+    {
+        "id": "813dce0346f21179",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to PRL",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.PRL",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 2900,
+        "wires": [
+            [
+                "e1f8b6d197c45b4b"
+            ]
+        ]
+    },
+    {
+        "id": "e1f8b6d197c45b4b",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 41,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "3: Relative Leistung in %",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1110,
+        "y": 2900,
+        "wires": []
+    },
+    {
+        "id": "b265000327c280a2",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to TKK",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.TKK",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 2980,
+        "wires": [
+            [
+                "967e30ee441f7c46"
+            ]
+        ]
+    },
+    {
+        "id": "967e30ee441f7c46",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 47,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "3: Temperatur Leistungsteil in Grad",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1140,
+        "y": 2980,
+        "wires": []
+    },
+    {
+        "id": "bf7e1f3782021cf6",
+        "type": "mqtt in",
+        "z": "147c8d3403dc75f8",
+        "name": "Mosquitto /Groundfloor/SolarMax3/Data",
+        "topic": "/Groundfloor/SolarMax3/Data",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 2340,
+        "wires": [
+            [
+                "5a4f0ad337102b8f",
+                "24d9c8980e207140",
+                "f2ef0c2af53240b1",
+                "7b9818b4c899bd0a"
+            ]
+        ]
+    },
+    {
+        "id": "bed7514221470015",
+        "type": "function",
+        "z": "147c8d3403dc75f8",
+        "name": "GetDateTime",
+        "func": "// Get date and time\nvar Time = (new Date()).toLocaleString('de-DE')\nmsg.payload = Time;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 2120,
+        "wires": [
+            [
+                "aab86b2999c58364"
+            ]
+        ]
+    },
+    {
+        "id": "aab86b2999c58364",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "2: Datum/Uhrzeit letzte Aktualisierung (jede Minute)",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 950,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "24d9c8980e207140",
+        "type": "function",
+        "z": "147c8d3403dc75f8",
+        "name": "GetDateTime",
+        "func": "// Get date and time\nvar Time = (new Date()).toLocaleString('de-DE')\nmsg.payload = Time;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 3140,
+        "wires": [
+            [
+                "d988dc9e5a077f8e"
+            ]
+        ]
+    },
+    {
+        "id": "d988dc9e5a077f8e",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "0c613f1510065e7f",
+        "order": 5,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "3: Datum/Uhrzeit letzte Aktualisierung (jede Minute)",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 970,
+        "y": 3140,
+        "wires": []
+    },
+    {
+        "id": "87af3305194999e2",
+        "type": "mqtt in",
+        "z": "147c8d3403dc75f8",
+        "name": "Mosquitto /Groundfloor/Basement/Data",
+        "topic": "/Groundfloor/Basement/Data",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "f322652a5a1db4f7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 3600,
+        "wires": [
+            [
+                "4dc0dc9aca481aaa"
+            ]
+        ]
+    },
+    {
+        "id": "4dc0dc9aca481aaa",
+        "type": "json",
+        "z": "147c8d3403dc75f8",
+        "name": "JSON-String to JS-Object",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 590,
+        "y": 3600,
+        "wires": [
+            [
+                "1ec5eedae607c360",
+                "981edc7e4a207448"
+            ]
+        ]
+    },
+    {
+        "id": "1ec5eedae607c360",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to Temperature",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Temperature",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 3600,
+        "wires": [
+            [
+                "559f9f570a45c749"
+            ]
+        ]
+    },
+    {
+        "id": "559f9f570a45c749",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "f6b72e6d10d17950",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Temperatur in °C",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1150,
+        "y": 3600,
+        "wires": []
+    },
+    {
+        "id": "237e94edaaffa118",
+        "type": "comment",
+        "z": "147c8d3403dc75f8",
+        "name": "Group Erdgeschoss Keller",
+        "info": "",
+        "x": 1390,
+        "y": 3600,
+        "wires": []
+    },
+    {
+        "id": "981edc7e4a207448",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to Humidity",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Humidity",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 3680,
+        "wires": [
+            [
+                "307f17f95b871f47"
+            ]
+        ]
+    },
+    {
+        "id": "307f17f95b871f47",
+        "type": "ui_text",
+        "z": "147c8d3403dc75f8",
+        "group": "f6b72e6d10d17950",
+        "order": 2,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Luftfeuchte in % RH",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1160,
+        "y": 3680,
+        "wires": []
+    },
+    {
+        "id": "d0e9b34878a61dec",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to MAINS",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.MAINS",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 1020,
+        "wires": [
+            [
+                "d5092b4b3dac33d6"
+            ]
+        ]
+    },
+    {
+        "id": "d5092b4b3dac33d6",
+        "type": "ui_led",
+        "z": "147c8d3403dc75f8",
+        "order": 22,
+        "group": "0c613f1510065e7f",
+        "width": 4,
+        "height": 1,
+        "label": "1: Mains",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "off",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "on",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "1: Mains",
+        "x": 1040,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "cd090f1d6fe637c6",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to MAINS",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.MAINS",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 2040,
+        "wires": [
+            [
+                "bd8bb3e5d15c0917"
+            ]
+        ]
+    },
+    {
+        "id": "bd8bb3e5d15c0917",
+        "type": "ui_led",
+        "z": "147c8d3403dc75f8",
+        "order": 23,
+        "group": "0c613f1510065e7f",
+        "width": 4,
+        "height": 1,
+        "label": "2: Mains",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "off",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "on",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "2: Mains",
+        "x": 1040,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "d9823938ea3c53bf",
+        "type": "change",
+        "z": "147c8d3403dc75f8",
+        "name": "Filter to MAINS",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.MAINS",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 3060,
+        "wires": [
+            [
+                "bb813c0f2a455618"
+            ]
+        ]
+    },
+    {
+        "id": "bb813c0f2a455618",
+        "type": "ui_led",
+        "z": "147c8d3403dc75f8",
+        "order": 24,
+        "group": "0c613f1510065e7f",
+        "width": 4,
+        "height": 1,
+        "label": "3: Mains",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "off",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "on",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "3: Mains",
+        "x": 1060,
+        "y": 3060,
+        "wires": []
+    },
+    {
+        "id": "f65b6e549182e9c7",
+        "type": "ui_chart",
+        "z": "147c8d3403dc75f8",
+        "name": "",
+        "group": "e5ab91e14576fa49",
+        "order": 1,
+        "width": 30,
+        "height": 5,
+        "label": "Wechselrichter 1 Leistung",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "4500",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1650,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b738f97863c1669d",
+        "type": "comment",
+        "z": "147c8d3403dc75f8",
+        "name": "Tab SolarMax 1-3 Grafik / Group Grafik",
+        "info": "",
+        "x": 1690,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "ff9121600ca831bf",
+        "type": "ui_chart",
+        "z": "147c8d3403dc75f8",
+        "name": "",
+        "group": "e5ab91e14576fa49",
+        "order": 2,
+        "width": 30,
+        "height": 5,
+        "label": "Wechselrichter 2 Leistung",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "4500",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1650,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3af26589868adf84",
+        "type": "ui_chart",
+        "z": "147c8d3403dc75f8",
+        "name": "",
+        "group": "e5ab91e14576fa49",
+        "order": 3,
+        "width": 30,
+        "height": 5,
+        "label": "Wechselrichter 3 Leistung",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "4500",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1670,
+        "y": 2420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "225e71ea6ccb29f7",
+        "type": "inject",
+        "z": "147c8d3403dc75f8",
+        "name": "Init after 0.5sec",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 120,
+        "wires": [
+            [
+                "589874a58056a37a"
+            ]
+        ]
+    },
+    {
+        "id": "589874a58056a37a",
+        "type": "function",
+        "z": "147c8d3403dc75f8",
+        "name": "Set global value TriggerSolarMaxXAtive to \"off\"",
+        "func": "// Get the variables and initialize them\n/*\nVariable context:\ncontext - the node’s local context\nflow - the flow scope context\nglobal - the global scope context\n*/\nvar tmp = global.get(\"TriggerSolarMax1Ative\") || 0; // Trigger SolarMax 1\nvar tmp1 = global.get(\"TriggerSolarMax2Ative\") || 0; // Trigger SolarMax 2\nvar tmp2 = global.get(\"TriggerSolarMax3Ative\") || 0; // Trigger SolarMax 3\n\n// Set the variables\nglobal.set(\"TriggerSolarMax1Ative\", \"off\");\nglobal.set(\"TriggerSolarMax2Ative\", \"off\");\nglobal.set(\"TriggerSolarMax3Ative\", \"off\");\n\n// Return value of the function\nmsg.payload = tmp;\nreturn msg;\n\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "63b76017d3ee8068",
+        "type": "comment",
+        "z": "147c8d3403dc75f8",
+        "name": "Initialize global variables",
+        "info": "",
+        "x": 190,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "3b8bef7eb0986d22",
+        "type": "function",
+        "z": "147c8d3403dc75f8",
+        "name": "Set global value TriggerSolarMaxXAtive",
+        "func": "// Set global value TriggerSolarMaxXAtive\nglobal.set(\"TriggerSolarMax1Ative\", \"on\");\nglobal.set(\"TriggerSolarMax2Ative\", \"off\");\nglobal.set(\"TriggerSolarMax3Ative\", \"off\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "901804d0bef0baee",
+        "type": "function",
+        "z": "147c8d3403dc75f8",
+        "name": "Set global value TriggerSolarMaxXAtive",
+        "func": "// Set global value TriggerSolarMaxXAtive\nglobal.set(\"TriggerSolarMax1Ative\", \"off\");\nglobal.set(\"TriggerSolarMax2Ative\", \"on\");\nglobal.set(\"TriggerSolarMax3Ative\", \"off\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 2200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f2ef0c2af53240b1",
+        "type": "function",
+        "z": "147c8d3403dc75f8",
+        "name": "Set global value TriggerSolarMaxXAtive",
+        "func": "// Set global value TriggerSolarMaxXAtive\nglobal.set(\"TriggerSolarMax1Ative\", \"off\");\nglobal.set(\"TriggerSolarMax2Ative\", \"off\");\nglobal.set(\"TriggerSolarMax3Ative\", \"on\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 3220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7b9818b4c899bd0a",
+        "type": "function",
+        "z": "147c8d3403dc75f8",
+        "name": "Prepare global values TriggerSolarMaxXAtive",
+        "func": "var msg1 = {}; // TriggerSolarMax1Ative\nvar msg2 = {}; // TriggerSolarMax2Ative\nvar msg3 = {}; // TriggerSolarMax3Ative\n\n// ##### TriggerSolarMax1Ative\nvar SolarMax1 = global.get(\"TriggerSolarMax1Ative\") || 0;\nif (SolarMax1 == 'on') {\n    msg1.payload = 'on'\n}\nelse {\n    msg1.payload = 'off'\n}\n\n// ##### TriggerSolarMax2Ative\nvar SolarMax2 = global.get(\"TriggerSolarMax2Ative\") || 0;\nif (SolarMax2 == 'on') {\n    msg2.payload = 'on'\n}\nelse {\n    msg2.payload = 'off'\n}\n\n// ##### TriggerSolarMax3Ative\nvar SolarMax3 = global.get(\"TriggerSolarMax3Ative\") || 0;\nif (SolarMax3 == 'on') {\n    msg3.payload = 'on'\n}\nelse {\n    msg3.payload = 'off'\n}\n\n// ##### Return the three messages to the three outputs\nreturn [msg1, msg2, msg3];\n",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 3400,
+        "wires": [
+            [
+                "9eafe9a80b0d38d5"
+            ],
+            [
+                "863cd4523c5ef5e8"
+            ],
+            [
+                "ab3e3dc5880183e7"
+            ]
+        ]
+    },
+    {
+        "id": "9eafe9a80b0d38d5",
+        "type": "ui_led",
+        "z": "147c8d3403dc75f8",
+        "order": 19,
+        "group": "0c613f1510065e7f",
+        "width": 4,
+        "height": 1,
+        "label": "1: Trigger",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "off",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "on",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "1: Trigger",
+        "x": 1080,
+        "y": 3340,
+        "wires": []
+    },
+    {
+        "id": "863cd4523c5ef5e8",
+        "type": "ui_led",
+        "z": "147c8d3403dc75f8",
+        "order": 20,
+        "group": "0c613f1510065e7f",
+        "width": 4,
+        "height": 1,
+        "label": "2: Trigger",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "off",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "on",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "2: Trigger",
+        "x": 1080,
+        "y": 3400,
+        "wires": []
+    },
+    {
+        "id": "ab3e3dc5880183e7",
+        "type": "ui_led",
+        "z": "147c8d3403dc75f8",
+        "order": 21,
+        "group": "0c613f1510065e7f",
+        "width": 4,
+        "height": 1,
+        "label": "3: Trigger",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "off",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "on",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "3: Trigger",
+        "x": 1080,
+        "y": 3460,
+        "wires": []
+    },
+    {
+        "id": "0041c3a032e71f80",
+        "type": "function",
+        "z": "1c8540f5f760b79e",
+        "name": "GetDateTime",
+        "func": "// Get date and time\nvar Time = (new Date()).toLocaleString('de-DE')\nmsg.payload = Time;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 120,
+        "wires": [
+            [
+                "cade3a541e33b94d",
+                "4bf94c8d6a741e72",
+                "fa7c3f523079074f",
+                "cddf7e34f9dcbff0",
+                "8a4719670296bd90",
+                "659a62142ef71211",
+                "dac245f1e76bc250",
+                "9ead30e59b6eec41",
+                "619dd4307a1b4996"
+            ]
+        ]
+    },
+    {
+        "id": "e1e99c8096b79848",
+        "type": "inject",
+        "z": "1c8540f5f760b79e",
+        "name": "Intervall each second",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "0041c3a032e71f80"
+            ]
+        ]
+    },
+    {
+        "id": "c491338c94156360",
+        "type": "comment",
+        "z": "1c8540f5f760b79e",
+        "name": "DatumUhrzeit",
+        "info": "",
+        "x": 150,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "cade3a541e33b94d",
+        "type": "ui_text",
+        "z": "1c8540f5f760b79e",
+        "group": "1dfb82f42d8072b6",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 700,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "3e9493b470d584a8",
+        "type": "comment",
+        "z": "1c8540f5f760b79e",
+        "name": "Tab WetterDraussen, Group Wetter draussen",
+        "info": "",
+        "x": 990,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "4bf94c8d6a741e72",
+        "type": "ui_text",
+        "z": "1c8540f5f760b79e",
+        "group": "0c1066e6500e0684",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 700,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "8d2708a3b94c6ac5",
+        "type": "comment",
+        "z": "1c8540f5f760b79e",
+        "name": "Tab Erdgeschoss, Group Erdgeschoss Wohnzimmer",
+        "info": "",
+        "x": 1010,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "fa7c3f523079074f",
+        "type": "ui_text",
+        "z": "1c8540f5f760b79e",
+        "group": "6f4aea4ea6f32b77",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 700,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "04add5b304debddc",
+        "type": "comment",
+        "z": "1c8540f5f760b79e",
+        "name": "Tab Erdgeschoss, Group Erdgeschoss Wohnzimmer Druck",
+        "info": "",
+        "x": 1030,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "8a4719670296bd90",
+        "type": "ui_text",
+        "z": "1c8540f5f760b79e",
+        "group": "8e374d337271bea3",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 700,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "f694be75034d65fc",
+        "type": "comment",
+        "z": "1c8540f5f760b79e",
+        "name": "Tab BuderusWarmwasser Group Warmwasser",
+        "info": "",
+        "x": 990,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "659a62142ef71211",
+        "type": "ui_text",
+        "z": "1c8540f5f760b79e",
+        "group": "ba44d2bfa433f113",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 700,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "d8f2799d05db0e30",
+        "type": "comment",
+        "z": "1c8540f5f760b79e",
+        "name": "Tab BuderusHeizung Group Heizung",
+        "info": "",
+        "x": 960,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "dac245f1e76bc250",
+        "type": "ui_text",
+        "z": "1c8540f5f760b79e",
+        "group": "33f1d2f3cc3ae080",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 700,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "5c4dfa3de9e4a9cf",
+        "type": "comment",
+        "z": "1c8540f5f760b79e",
+        "name": "Tab BuderusAllgemein Group Allgemein",
+        "info": "",
+        "x": 970,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "cddf7e34f9dcbff0",
+        "type": "ui_text",
+        "z": "1c8540f5f760b79e",
+        "group": "c7ffec48ed7eb527",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 700,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "8d39a8f1d1b2e587",
+        "type": "comment",
+        "z": "1c8540f5f760b79e",
+        "name": "Tab ErsterStock, Group Erster Stock Wohnzimmer",
+        "info": "",
+        "x": 1010,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "9ead30e59b6eec41",
+        "type": "ui_text",
+        "z": "1c8540f5f760b79e",
+        "group": "c561943f930dcf2b",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 700,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "93b6d5a49c2cd0df",
+        "type": "comment",
+        "z": "1c8540f5f760b79e",
+        "name": "Tab BuderusService Group Service",
+        "info": "",
+        "x": 960,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "619dd4307a1b4996",
+        "type": "ui_text",
+        "z": "1c8540f5f760b79e",
+        "group": "0c613f1510065e7f",
+        "order": 8,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Datum/Uhrzeit",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 700,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "6b317a91c2618510",
+        "type": "comment",
+        "z": "1c8540f5f760b79e",
+        "name": "Tab SolarMax Group Wechselrichter 1-3",
+        "info": "",
+        "x": 970,
+        "y": 760,
+        "wires": []
+    }
+]
